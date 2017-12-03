@@ -1,0 +1,26 @@
+ADDS anurag 1 mtech 1
+ADDP thomas algo
+ADDP galvin os
+ADDP forozan network
+ADDC operatingsys 5 galvin mtech 1 NULL
+ADDC algorithm 3 raja mtech 1 operatingsys
+ADDC algorithm 3 thomas mtech 1 operatingsys
+ADDS bansal 2 mtech 2
+SHOWS anurag
+SHOWS bansal
+SHOWP thomas
+SHOWC algorithm
+SHOWC operatingsys
+ENROLL operatingsys anurag
+ENROLL algorithm anurag
+SHOWS anurag
+SHOWC algorithm
+SHOWP thomas
+UNENROLL network anurag
+UNENROLL algorithm anurag
+SHOWS anurag
+SHOWC algorithm
+MODIFY algorithm 2 raja
+modify algorithm 2 galvin
+SHOWC algorithm
+SHOWP galvin
